@@ -43,3 +43,18 @@ python:
     fix: |
       print("$0:$cursor ", $0)
 ```
+
+## 🧩 Dependencies
+
+This plugin requires [LuaRocks](https://luarocks.org/) and the `lyaml` library for YAML parsing.
+
+### Install `lyaml` via LuaRocks:
+
+```bash
+luarocks install lyaml
+```
+
+> Ensure `luarocks` is installed and available in your system's `PATH`.
+> If you're using a custom Lua version (e.g., from Homebrew), make sure `luarocks` is set up for that version.
+
+---
